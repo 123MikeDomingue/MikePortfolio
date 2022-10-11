@@ -1,9 +1,17 @@
 /* Global Styles-------------- */
+:root {
+  
+  --transition: all 0.5s linear;
+ 
+}
+
 *{
  margin: 0;
  box-sizing: border-box;
  padding: 0;
 }
+
+
 
 body {
   overflow-x: hidden;
@@ -560,6 +568,8 @@ flex-direction: column;
    margin-left:  220px;
 
    margin-top: -170px;
+
+   font-size: 16px;
    
 
 
@@ -597,6 +607,8 @@ flex-direction: column;
  .projects-title{
   /* margin-right: 3000px; */
   margin-top: 600px;
+  margin-right: 40px;
+  
   transform: translateY(620px);
  }
  @media screen and (min-width:768px) {
@@ -617,6 +629,7 @@ flex-direction: column;
   }
   .projects-title{
     transform: translateY(-430px);
+    
   }
 
   
@@ -635,12 +648,22 @@ flex-direction: column;
   width: 450px;
   height: 300px;
   margin-left: 20px;
+  
   justify-content: space-between;
+  border: 0.5rem solid white;
+transition: all 0.5s linear;
 
  }
 
+ .project-picture-container:hover .projects-pics {
+  
+  opacity: 0.5;
+  transform: scale(1.2);
+ }
+ 
+
  .Projects-section .projects-title{
- margin-bottom: -0px;
+ margin-bottom: 20px;
 margin-left: 10px;
  
  }
@@ -649,15 +672,18 @@ margin-left: 10px;
   margin-top: 140px;
   margin-bottom: 100px;
   align-items: center;
-  margin-left: 0px;
+   margin-left: -30px; 
+
   flex-wrap: wrap;
   display: inline;
 
 
  }
 
- 
-
 
 
  /* end of projects section */
+
+ /* Skills section */
+ 
+ /* end of skills section */
