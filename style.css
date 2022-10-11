@@ -259,6 +259,26 @@ font-size: 11px;
 
 
 }
+
+
+
+
+
+.background-1{
+ 
+  background-color: #858d87;
+  height: 500px;
+  
+
+}
+
+.background-3{
+  background-color: #0b9204;
+  height: 420px;
+
+}
+
+
  .Mike-info{
   color:white;
   display: flex;
@@ -426,12 +446,38 @@ flex-direction: column;
  /* experience section */
 
  
-@media screen and (min-width: 476px) {
-  .exp{
-    margin-left: 0px;
-  }
+@media screen and (min-width: 676px) {
+  
+
+    .experience-section .experience-title {
+    margin-left: 120px;
+  
+  
+  
+    }
+
+    .experience-section, .experience-subtitle{
+      margin-left: 120px;
+
+    }
+
+    .large-exp-section .experience-list{
+      margin-left: 120px;
+
+    }
 }
 
+.experience-section .experience-title{
+  margin-right: 100px;
+}
+
+.experience-section .experience-subtitle{
+  margin-right: 120px;
+
+}
+ .exp ul{
+  margin-right: 120px;
+ }
 .exp{
   margin-left: -65px;
   margin-top: 50px;
@@ -450,6 +496,13 @@ flex-direction: column;
 .experience-list{
   list-style: none;
  
+}
+
+.large-exp-section .experience-list {
+  margin-right: 0px;
+  margin-left: -50px;
+  
+
 }
 
 .fa-caret-right{
@@ -479,7 +532,7 @@ flex-direction: column;
  
  }
  .education,.education-header{
-  margin-right: -120px;
+  margin-right: 120px;
   margin-top: -300px;
  }
 
@@ -489,7 +542,7 @@ flex-direction: column;
   
  }
  .education, .education-paragrapth{
-  margin-left: 100px;
+  margin-left: -100px;
  
  }
 
@@ -525,5 +578,86 @@ flex-direction: column;
  /* end of education section */
 
  /* projects-section */
+ .projects-flexlayout{
+  display: flex;
+
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: 600px;
+ 
+ 
+  
+ 
+  
+
+ }
+.projects-link{
+ display: flex;
+}
+ .projects-title{
+  /* margin-right: 3000px; */
+  margin-top: 600px;
+  transform: translateY(620px);
+ }
+ @media screen and (min-width:768px) {
+  .projects-flexlayout{
+  flex-direction: row;
+  margin-top: -450px;
+ 
+ 
+  }
+
+  .projects-pics{
+    width:350px;
+    height: 200px;
+    margin-bottom: -500px;
+
+
+    
+  }
+  .projects-title{
+    transform: translateY(-430px);
+  }
+
+  
+
+  
+
+  
+ }
+
+
+ 
+
+ .projects-pics{
+  margin-bottom: -320px;
+  border-radius: 1px;
+  width: 450px;
+  height: 300px;
+  margin-left: 20px;
+  justify-content: space-between;
+
+ }
+
+ .Projects-section .projects-title{
+ margin-bottom: -0px;
+margin-left: 10px;
+ 
+ }
+
+ a, .btn{
+  margin-top: 140px;
+  margin-bottom: 100px;
+  align-items: center;
+  margin-left: 0px;
+  flex-wrap: wrap;
+  display: inline;
+
+
+ }
+
+ 
+
+
 
  /* end of projects section */
